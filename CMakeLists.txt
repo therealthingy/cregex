@@ -13,7 +13,7 @@ project(cregex C CXX)
 add_library(${PROJECT_NAME} OBJECT)
 target_sources(${PROJECT_NAME}
     PRIVATE
-        src/regex.cpp
+        src/cregex.cpp
     INTERFACE
         FILE_SET HEADERS
             TYPE HEADERS

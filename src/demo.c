@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include <gk/regex.h>
+#include <cregex.h>
 
 int main(void) {
     int cap = 1 << 21;
